@@ -37,13 +37,13 @@ module.exports = {
 		const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
 		message.reply({
-			body: `♕︎➪Badol-bot-information 𖤍🂱
-\☢ ︎︎Bot-Name ☞︎︎︎ ${botName} 🂱
-\☢︎︎ Bot-Prefix ☞︎︎︎ ${botPrefix} 𖤍
-\☢ ︎︎Bot-Owner-Name ☞︎︎︎ ${authorName} ⚠︎
-\☢︎︎ Bot-Owner-Age  ☞︎︎︎ ${ownAge} ⚠︎
-\☢ ︎Bot-Owner-Facebook ☞︎︎︎ ${authorFB} ♧︎︎︎
-\☢︎︎ Team-Name☞︎︎︎ ${teamName} 𓀬
+			body: `♕︎➪Sabbir-bot-information 𖤍🂱
+\☢ ︎︎Bot-Name ☞︎︎︎ ${MIM} 🂱
+\☢︎︎ Bot-Prefix ☞︎︎︎ ${/} 𖤍
+\☢ ︎︎Bot-Owner-Name ☞︎︎︎ ${Sabbir Ahmed } ⚠︎
+\☢︎︎ Bot-Owner-Age  ☞︎︎︎ ${18+} ⚠︎
+\☢ ︎Bot-Owner-Facebook ☞︎︎︎ ${https://www.facebook.com/profile.php?id=100071882764076} ♧︎︎︎
+\☢︎︎ Team-Name☞︎︎︎ ${🌚🫦} 𓀬
 \♕︎════════♔︎═════════♕︎
 
  ♲︎︎︎ Bot-Uptime𒊹︎︎︎
