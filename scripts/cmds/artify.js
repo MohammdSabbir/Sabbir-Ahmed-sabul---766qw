@@ -1,6 +1,4 @@
-JustPaste.it
-User avatar
-@anonymous · Sep 20, 2024
+
 const fonts = {
 
  
