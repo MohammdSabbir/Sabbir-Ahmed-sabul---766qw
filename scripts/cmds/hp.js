@@ -1,18 +1,3 @@
-const fs = require("fs-extra");
-const axios = require("axios");
-const path = require("path");
-const { getPrefix } = global.utils;
-const { commands, aliases } = global.GoatBot;
-const doNotDelete = "hêîṣ ɓr̃õƙêñ 💔";
-
-function formatFont(text) {
-  const fontMapping = {
-    A: "𝙰", B: "𝙱", C: "𝙲", D: "𝙳", E: "𝙴", F: "𝙵", G: "𝙶", H: "𝙷", I: "𝙸", J: "𝙹", K: "𝙺", L: "𝙻", M: "𝙼",
-    N: "𝙽", O: "𝙾", P: "𝙿", Q: "𝚀", R: "𝚁", S: "𝚂", T: "𝚃", U: "𝚄", V: "𝚅", W: "𝚆", X: "𝚇", Y: "𝚈", Z: "𝚉"
-  };
-  return text.split('').map(char => fontMapping[char.toUpperCase()] || char).join('');
-}
-
 module.exports = {
   config: {
     name: "hp",
