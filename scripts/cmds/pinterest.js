@@ -10,20 +10,21 @@ const baseApiUrl = async () => {
 
 module.exports = {
     config: {
-        name: "Pinterest",
+        name: "pin",
+        aliases: ["pinterest"],
         version: "1.0",
-        credits: "Dipto",
-        cooldowns: 15,
-        hasPermission: 0,
-        usePrefix: true,
-        prefix, true,
-        description: "Pinterest Image Search",
-        commandCategory: "download",
-        category: " download",
-        guide: "-pin [query] - [limit]",
+        author: "Dipto",
+        countDown: 15,
+        role: 0,
+        shortDescription: "Pinterest Image Search",
+        longDescription: "Pinterest Image Search",
+        category: "download",
+        guide: {
+            en: "{pn} query",
+        },
     },
 
-    run: async function ({ api, event, args }) {
+    onStart: async function ({ api, event, args }) {
         const queryAndLength = args.join(" ").split("-");
         const q = queryAndLength[0].trim();
         const length = queryAndLength[1].trim();
