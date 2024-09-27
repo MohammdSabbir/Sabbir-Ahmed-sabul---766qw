@@ -12,7 +12,7 @@ function isVip(senderID) {
 module.exports = {
     config: {
         name: "fakechat",
-        aliases: [],
+        aliases: [fakechat],
         version: "1.0",
         author: "kshitiz",
         countDown: 5,
