@@ -1,1 +1,77 @@
-function _0x1f16(){const _0x1bf029=['╭━─━─≪𝐏𝐑𝐄𝐅','threadName','https://i.','hnCwiE1.jp','340758vtgXWB','pOOEi','prefix','romURL','952599qsWBdD','869926OFlgUk','34149148JhSOZx','exports','get','】\x0a│\x0a├─❯\x20𝐁𝐎','gLuYw','━❯❯\x0a│\x0a├─❯\x20','18meadys','senderID','utils','𝐁𝟒𝐃𝟗𝐋★','\x0a│\x0a├─❯𝐁𝐎𝐗-','getStreamF','𝐍𝐀𝐌𝐄\x0a\x0a','830044OraTEi','no\x20prefix','imgur.com/','-𝐏𝐑𝐄𝐅𝐈𝐗:【•','30GwcKSz','1985150geYwcc','𝐌-𝐁𝐎𝐓-𝟎𝟎𝟕\x20','name','toLowerCas','DrxHI','reply','1.0','9bFjQvm','𝐓-𝐍𝐀𝐌𝐄:\x20𝐌𝐈','★𝐌𝟗𝐇𝟒𝐌𝐌𝟒𝐃-','threadID','5984Dhjhwn','auto\x20📟','𝐈𝐗-𝐂𝐌𝐃≫─━─','7007KDowQe','\x0a│\x0a├─❯\x20𝐁𝐎𝐓','body'];_0x1f16=function(){return _0x1bf029;};return _0x1f16();}const _0x46ac87=_0xcbec;function _0xcbec(_0x2fc39d,_0x1323f5){const _0x415fe0=_0x1f16();return _0xcbec=function(_0xb25b14,_0x53952c){_0xb25b14=_0xb25b14-(-0xb9+-0x6ab+0x7ca);let _0x2a4366=_0x415fe0[_0xb25b14];return _0x2a4366;},_0xcbec(_0x2fc39d,_0x1323f5);}(function(_0x21522d,_0x3e16f4){const _0x19cea2=_0xcbec,_0x468d13=_0x21522d();while(!![]){try{const _0x2f1cb0=parseInt(_0x19cea2(0x70))/(-0x1b49+-0x4bb*0x1+0x2005)+parseInt(_0x19cea2(0x71))/(-0x1*-0x2267+-0x1a41+-0x824)+-parseInt(_0x19cea2(0x8b))/(-0x1f6d+0x43*-0x47+0x3205*0x1)*(-parseInt(_0x19cea2(0x7f))/(-0x4*0x455+0x1f29+-0xdd1))+-parseInt(_0x19cea2(0x84))/(0x9*-0x7d+-0x1293+0x16fd)*(-parseInt(_0x19cea2(0x78))/(-0xa*0x10c+0x235d+-0x18df))+-parseInt(_0x19cea2(0x92))/(0x1f*0x1+0x1e45+-0x1e5d)*(-parseInt(_0x19cea2(0x8f))/(-0x1540+0x21e1+-0x433*0x3))+-parseInt(_0x19cea2(0x6c))/(-0x1*0x253d+0x105c+-0x1*-0x14ea)*(-parseInt(_0x19cea2(0x83))/(-0x91b+-0x1c09*0x1+-0x1*-0x252e))+-parseInt(_0x19cea2(0x72))/(-0x4*0x112+0x496+-0x1*0x43);if(_0x2f1cb0===_0x3e16f4)break;else _0x468d13['push'](_0x468d13['shift']());}catch(_0x496b62){_0x468d13['push'](_0x468d13['shift']());}}}(_0x1f16,0x1c2a27+0x142d12+0x2*-0x10da77),module[_0x46ac87(0x73)]={'config':{'name':_0x46ac87(0x6e),'version':_0x46ac87(0x8a),'author':_0x46ac87(0x8d)+_0x46ac87(0x7b),'countDown':0x5,'role':0x0,'shortDescription':_0x46ac87(0x80),'longDescription':_0x46ac87(0x80),'category':_0x46ac87(0x90)},'onStart':async function(){},'onChat':async function({event:_0x515579,message:_0x1a160a,getLang:_0x4d8c36,usersData:_0x3ee859,threadsData:_0x5df247}){const _0x32c880=_0x46ac87,_0xdb59c5={'gLuYw':function(_0x296600,_0x49f24b){return _0x296600===_0x49f24b;},'pOOEi':_0x32c880(0x6e),'DrxHI':_0x32c880(0x6a)+_0x32c880(0x81)+_0x32c880(0x6b)+'eg'};if(_0x515579[_0x32c880(0x67)]&&_0xdb59c5[_0x32c880(0x76)](_0x515579[_0x32c880(0x67)][_0x32c880(0x87)+'e'](),_0xdb59c5[_0x32c880(0x6d)])){const _0xc95a74=await _0x3ee859[_0x32c880(0x74)](_0x515579[_0x32c880(0x79)]),_0x28f054=_0xc95a74[_0x32c880(0x86)],_0x4a974d=await _0x5df247[_0x32c880(0x74)](_0x515579[_0x32c880(0x8e)]),_0x29a1c0=_0x4a974d[_0x32c880(0x69)];return _0x1a160a[_0x32c880(0x89)]({'body':_0x32c880(0x68)+_0x32c880(0x91)+_0x32c880(0x77)+_0x28f054+(_0x32c880(0x66)+_0x32c880(0x82)+_0x32c880(0x75)+_0x32c880(0x8c)+_0x32c880(0x85)+_0x32c880(0x7c)+_0x32c880(0x7e))+_0x29a1c0,'attachment':await global[_0x32c880(0x7a)][_0x32c880(0x7d)+_0x32c880(0x6f)](_0xdb59c5[_0x32c880(0x88)])});}}});
+const fs = require("fs-extra");
+
+module.exports = {
+  config: {
+    name: "prefix",
+    version: "1.3",
+    author: "NTKhang",// edited by Elohime Hatake
+    countDown: 5,
+    role: 0,
+    shortDescription: "Change the prefix of the bot",
+    longDescription: "Change the bot command mark in your chat box or the whole bot system (only admin bot)",
+    category: "config",
+    guide: {
+      en: "   {pn} <𝐧𝐞𝐰 𝐏𝐫𝐞𝐟𝐢𝐱>: 𝐂𝐡𝐚𝐧𝐠𝐞 𝐍𝐞𝐰 𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐁𝐨𝐱"          + "\n   𝐄𝐱𝐚𝐦𝐩𝐥𝐞:"          + "\n    {pn} "          + "\n\n   {pn} <𝐧𝐞𝐰 𝐏𝐫𝐞𝐟𝐢𝐱> -𝐠: 𝐂𝐡𝐚𝐧𝐠𝐞 𝐍𝐞𝐰 𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐧 𝐒𝐲𝐬𝐭𝐞𝐦 𝐁𝐨𝐭 (𝐨𝐧𝐥𝐲 𝐀𝐝𝐦𝐢𝐧 𝐁𝐨𝐭)"          + "\n   𝐄𝐱𝐚𝐦𝐩𝐥𝐞:"          + "\n    {pn} -𝐠"          + "\n\n   {pn} 𝐑𝐞𝐬𝐞𝐭: 𝐂𝐡𝐚𝐧𝐠𝐞 𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐁𝐨𝐱 𝐂𝐡𝐚𝐭 𝐓𝐨 𝐃𝐞𝐟𝐚𝐮𝐥𝐭"
+    }
+  },
+
+  langs: {
+    en: {
+      reset: "𝐂𝐥𝐚𝐫𝐤 𝐏𝐫𝐞𝐟𝐢𝐱 𝐇𝐚𝐬 𝐁𝐞𝐞𝐧 𝐑𝐞𝐬𝐞𝐭 𝐓𝐨 𝐃𝐞𝐟𝐚𝐮𝐥𝐭: %1",        𝐎𝐧𝐥𝐲𝐚𝐝𝐦𝐢𝐧: "𝐬𝐨𝐫𝐫𝐲, 𝐎𝐧𝐥𝐲 𝐀𝐝𝐦𝐢𝐧 𝐂𝐚𝐧 𝐂𝐡𝐚𝐧𝐠𝐞 𝐓𝐡𝐞 𝐏𝐫𝐞𝐟𝐢𝐱 𝐎𝐟 𝐓𝐡𝐞 𝐂𝐥𝐚𝐫𝐤 𝐁𝐨𝐭 𝐒𝐲𝐬𝐭𝐞𝐦.",        𝐂𝐨𝐧𝐟𝐢𝐫𝐦𝐠𝐥𝐨𝐛𝐚𝐥: "𝐫𝐞𝐚𝐜𝐭 𝐓𝐨 𝐓𝐡𝐢𝐬 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐓𝐨 𝐂𝐨𝐧𝐟𝐢𝐫𝐦 𝐂𝐡𝐚𝐧𝐠𝐢𝐧𝐠 𝐂𝐥𝐚𝐫𝐤'𝐬 𝐆𝐥𝐨𝐛𝐚𝐥 𝐏𝐫𝐞𝐟𝐢𝐱.",        𝐂𝐨𝐧𝐟𝐢𝐫𝐦𝐭𝐡𝐢𝐬𝐭𝐡𝐫𝐞𝐚𝐝: "𝐫𝐞𝐚𝐜𝐭 𝐓𝐨 𝐓𝐡𝐢𝐬 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐓𝐨 𝐂𝐨𝐧𝐟𝐢𝐫𝐦 𝐂𝐡𝐚𝐧𝐠𝐢𝐧𝐠 𝐂𝐥𝐚𝐫𝐤'𝐬 𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐁𝐨𝐱.",        𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐠𝐥𝐨𝐛𝐚𝐥: "𝐜𝐡𝐚𝐧𝐠𝐞𝐝 𝐓𝐡𝐞 𝐏𝐫𝐞𝐟𝐢𝐱 𝐎𝐟 𝐂𝐥𝐚𝐫𝐤'𝐬 𝐆𝐥𝐨𝐛𝐚𝐥 𝐒𝐲𝐬𝐭𝐞𝐦 𝐓𝐨: %1",        𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐭𝐡𝐢𝐬𝐭𝐡𝐫𝐞𝐚𝐝: "𝐜𝐡𝐚𝐧𝐠𝐞𝐝 𝐂𝐥𝐚𝐫𝐤'𝐬 𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐁𝐨𝐱 𝐓𝐨: %1",
+      myPrefix: "╭────────────⦿\n│✪𝐌𝐲 𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐬「 / 」\n│✪𝐌𝐨𝐝𝐞: 「private」\n│✪𝐎𝐰𝐧𝐞𝐫:「 SABBIR AHMED 」\n│✪𝐄𝐧𝐣𝐨𝐲 𝐔𝐬𝐢𝐧𝐠😄\n╰────────────⦿"
+    }
+  },
+
+  onStart: async function ({ message, role, args, commandName, event, threadsData, getLang }) {
+    if (!args[0])
+      return message.SyntaxError();
+
+    if (args[0] === 'reset') {
+      await threadsData.set(event.threadID, null, "data.prefix");
+      return message.reply(getLang("reset", global.GoatBot.config.prefix));
+    }
+
+    const newPrefix = args[0];
+    const formSet = {
+      commandName,
+      author: event.senderID,
+      newPrefix
+    };
+
+    if (args[1] === "-g") {
+      if (role < 2)
+        return message.reply(getLang("onlyAdmin"));
+      else
+        formSet.setGlobal = true;
+    } else {
+      formSet.setGlobal = false;
+    }
+
+    return message.reply(args[1] === "-g" ? getLang("confirmGlobal") : getLang("confirmThisThread"), (err, info) => {
+      formSet.messageID = info.messageID;
+      global.GoatBot.onReaction.set(info.messageID, formSet);
+    });
+  },
+
+  onReaction: async function ({ message, threadsData, event, Reaction, getLang }) {
+    const { author, newPrefix, setGlobal } = Reaction;
+    if (event.userID !== author)
+      return;
+    if (setGlobal) {
+      global.GoatBot.config.prefix = newPrefix;
+      fs.writeFileSync(global.client.dirConfig, JSON.stringify(global.GoatBot.config, null, 2));
+      return message.reply(getLang("successGlobal", newPrefix));
+    } else {
+      await threadsData.set(event.threadID, newPrefix, "data.prefix");
+      return message.reply(getLang("successThisThread", newPrefix));
+    }
+  },
+
+  onChat: async function ({ event, message, getLang }) {
+    if (event.body && event.body.toLowerCase() === "prefix") {
+      return () => {
+        return message.reply(getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)));
+      };
+    }
+  }
+};
