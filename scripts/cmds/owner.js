@@ -1,4 +1,3 @@
-Command executed successfully:
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
@@ -25,7 +24,7 @@ config: {
       nick: 'MIM'
     };
 
-    const bold = 'https://i.imgur.com/9kbMJ6h.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const bold = 'https://i.imgur.com/9kbMJ6h.mp4';
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
