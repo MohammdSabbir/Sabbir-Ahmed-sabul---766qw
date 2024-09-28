@@ -1,4 +1,3 @@
-Command executed successfully:
 const fs = require('fs');
 const moment = require('moment-timezone');
 
@@ -16,20 +15,15 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = " MIM";
+		const botName = "MIM";
 		const botPrefix = "〚 / 〛";
-		const authorName = " ♡ SABBIR AHMED ♡ ";
+		const authorName = "♡ SABBIR AHMED ♡";
 		const ownAge = "『 18+ 』";
 		const messenger = "m.me/100071882764076";
 		const authorFB = "https://www.facebook.com/profile.php?id=100071882764076";
-		const authorNumber = "_01844427366";
+		const authorNumber = "01844427366";
 		const Status = "_𝘚𝘪𝘯𝘨𝘭𝘦 𝘗𝘳𝘰 𝘔𝘢𝘹 ⛱";
-		const urls = [
-"https://https://i.imgur.com/cIbQYYk.jpeg",
-"https://i.postimhttps://i.imgur.com/cIbQYYk.jpeg",
-"https://i.postimg.https://i.imgur.com/cIbQYYk.jpeg",
-"https://i.imgur.com/cIbQYYk.jpeg"
-];
+		const urls = ["https://i.imgur.com/cIbQYYk.jpeg"];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
 		const date = now.format('MMMM Do YYYY');
@@ -43,8 +37,8 @@ module.exports = {
 
 		message.reply({
 			body: `💫《  𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧  》💫
-\🤖彡𝐵𝑜𝑡 𝑁𝑎𝑚𝑒 : ${botName}
-\👾彡𝐵𝑜𝑡 𝑆𝑦𝑠𝑡𝑒𝑚 𝑃𝑟𝑒𝑓𝑖𝑥 : ${botPrefix}
+\🤖彡𝐵𝑜𝑡 𝑁𝑎𝑚𝑒 : ${global.GoatBot.config.nickNameBot}
+\👾彡𝐵𝑜𝑡 𝑆𝑦𝑠𝑡𝑒𝑚 𝑃𝑟𝑒𝑓𝑖𝑥 : ${global.GoatBot.config.prefix}
 \💙彡𝑂𝑤𝑛𝑒𝑟 𝑁𝑎𝑚𝑒 : ${authorName}
 \📝彡𝐴𝑔𝑒  : ${ownAge}
 \💕彡𝑅𝑒𝑙𝑎𝑡𝑖𝑜𝑛𝑆ℎ𝑖𝑝: ${Status}
