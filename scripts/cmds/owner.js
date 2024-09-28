@@ -1,1 +1,64 @@
-function _0x7f24(){const _0x10f2dc=['2546572dRFfwU','𝐁𝐎𝐎𝐊:\x20http','Asia/Dhaka','1d5696fb99','21761\x0a𝐈𝐌𝐎:','\x2001782-721','reply','/+88017827','KTQDE','━━━━━\x0a\x0aBot','𝐋𝐀𝐌\x0a𝐀𝐃𝐃𝐑𝐄𝐒','utils','e620fa708a','𝐄𝐑:\x20m.me/1','1407033XryLss','al757@gmai','97/picture','𝐃\x20𝐁𝐀𝐃𝐎𝐋\x0a𝐑𝐄','getStreamF','6797\x0a𝐖𝐇𝐀𝐓𝐒','senderID','threadName','auto\x20✅','0&access_t','761\x0a𝐓𝐄𝐋𝐄𝐆𝐑','\x0a𝐑𝐄𝐋𝐀𝐓𝐈𝐎𝐍𝐒','oken=66285','0&width=72','unPNu','╔╝❮','teString','𝐀𝐏𝐏:\x20wa.me','l.com\x0a𝐅𝐀𝐂𝐄','REAL_ABBU_','7\x20\x0a𝐌𝐀𝐒𝐒𝐄𝐍𝐆','\x20||\x20','33145dBgcUU','https://gr','30ztNLor','𝐇𝐈𝐏:\x20𝐌𝐀𝐑𝐑𝐄','ohammadbad','━━━━━━━━━━','❯╚╗\x0a━━━━━━','━━━━','𝐒:\x20𝐊𝐇𝐔𝐋𝐍𝐀\x0a','name','ok.com/100','_VAI_TERA_','?height=72','owner','s://m.me/M','𝐀𝐌:\x20@BADOL','info','1257221GiINyT','romURL','𝐋𝐈𝐆𝐈𝐎𝐍:\x20𝐈𝐒','68379%7Cc1','0000138126','\x20\x0a━━━━━━━━','\x0aTime:【\x20','ame:\x20𝐌𝐈𝐌-𝐁','𝐄:\x20𝐌𝐎𝐇𝐀𝐌𝐌𝐀','4uGZijK','\x20.\x20)\x0aBot\x20N','𝐆𝐄𝐍𝐃𝐄𝐑:\x20𝐌𝐀','toLocaleDa','aph.facebo','𝐁\x0a𝐆𝐌𝐀𝐈𝐋:\x20m','\x0agc\x20Name:\x20','admin\x20and\x20','3067467slDjDh','0013812667','★𝐌𝟗𝐇𝟒𝐌𝐌𝟒𝐃-','10764567tNghQt','1.0','𝐁𝟒𝐃𝟗𝐋★','━━━━━━\x0a𝐍𝐀𝐌','OK\x0a━━━━━━━','𝐃\x0a𝐖𝐎𝐑𝐊:\x20𝐉𝐎','numeric','bot\x20owner\x20','𝐋𝐄\x0a𝐀𝐆𝐄:\x20𝟐𝟕','864CtZPtZ','get','30vywEGK','threadID','IzKpY','\x20Prefix:\x20(','toLocaleTi','𝐎𝐓___//𝟎𝟎𝟕','en-US','137748PdxHvb','1c1bde5662','BC.K1NG.00','exports','meString'];_0x7f24=function(){return _0x10f2dc;};return _0x7f24();}const _0x47084a=_0x1c3a;function _0x1c3a(_0x1b9d62,_0x55c0a8){const _0x14435d=_0x7f24();return _0x1c3a=function(_0x350d8d,_0x2b4d2e){_0x350d8d=_0x350d8d-(0x18b6+-0x800+0x166*-0xb);let _0x22e7db=_0x14435d[_0x350d8d];return _0x22e7db;},_0x1c3a(_0x1b9d62,_0x55c0a8);}(function(_0x20748f,_0x119ec6){const _0x480e7f=_0x1c3a,_0x519b22=_0x20748f();while(!![]){try{const _0x4c63ff=parseInt(_0x480e7f(0x195))/(-0x17b2+-0x1*-0x244d+-0xc9a)+parseInt(_0x480e7f(0x160))/(-0x129a*0x1+0x24df+-0x11*0x113)+parseInt(_0x480e7f(0x1a6))/(-0x239e+0x5f9*-0x5+0x53*0xca)*(parseInt(_0x480e7f(0x19e))/(-0x2fa*-0x1+0xfb*0xa+-0x2b*0x4c))+-parseInt(_0x480e7f(0x154))/(0x2f0+0x1e9*-0x9+0xe46)*(parseInt(_0x480e7f(0x15b))/(-0x535*-0x1+-0x20dc+-0x6d*-0x41))+parseInt(_0x480e7f(0x184))/(0x50*-0x1+0xa06*0x3+-0x1dbb)*(parseInt(_0x480e7f(0x1b2))/(-0x2242+0x5d*0x1c+0x12*0x157))+-parseInt(_0x480e7f(0x16e))/(-0x2472+-0x2163+0x16*0x32d)+-parseInt(_0x480e7f(0x186))/(0x15*0x10b+0x1652*-0x1+-0x9*-0xd)*(parseInt(_0x480e7f(0x1a9))/(0x6ac+-0xd7c+0x6db));if(_0x4c63ff===_0x119ec6)break;else _0x519b22['push'](_0x519b22['shift']());}catch(_0x5dd123){_0x519b22['push'](_0x519b22['shift']());}}}(_0x7f24,-0x2fd07*0x3+-0x3*0x43a55+0x2261d8),module[_0x47084a(0x15e)]={'config':{'name':_0x47084a(0x191),'version':_0x47084a(0x1aa),'author':_0x47084a(0x1a8)+_0x47084a(0x1ab),'countDown':0x5,'role':0x0,'shortDescription':_0x47084a(0x1a5)+_0x47084a(0x194),'longDescription':_0x47084a(0x1b0)+_0x47084a(0x194),'category':_0x47084a(0x176)},'onStart':async function(){},'onStart':async function({event:_0x575d71,message:_0x3b0c92,getLang:_0x2dbddd,usersData:_0xe65319,threadsData:_0x31ad81}){const _0x4722d7=_0x47084a,_0x54b300={'IzKpY':_0x4722d7(0x1af),'unPNu':_0x4722d7(0x15a),'KTQDE':_0x4722d7(0x162)},_0x67d90d=await _0xe65319[_0x4722d7(0x1b3)](_0x575d71[_0x4722d7(0x174)]),_0x8f4cd=_0x67d90d[_0x4722d7(0x18d)],_0x826896=await _0x31ad81[_0x4722d7(0x1b3)](_0x575d71[_0x4722d7(0x155)]),_0x47034c=_0x826896[_0x4722d7(0x175)],_0x1c250f=new Date(),_0x2822cd={'year':_0x54b300[_0x4722d7(0x156)],'month':_0x54b300[_0x4722d7(0x156)],'day':_0x54b300[_0x4722d7(0x156)]},_0x27ce82=_0x1c250f[_0x4722d7(0x1a1)+_0x4722d7(0x17e)](_0x54b300[_0x4722d7(0x17c)],_0x2822cd),_0x3ac793=_0x1c250f[_0x4722d7(0x158)+_0x4722d7(0x15f)](_0x54b300[_0x4722d7(0x17c)],{'timeZone':_0x54b300[_0x4722d7(0x168)],'hour12':!![]}),_0x80950a=_0x4722d7(0x185)+_0x4722d7(0x1a2)+_0x4722d7(0x18e)+_0x4722d7(0x1a7)+_0x4722d7(0x170)+_0x4722d7(0x190)+_0x4722d7(0x17b)+_0x4722d7(0x177)+_0x4722d7(0x17a)+_0x4722d7(0x198)+_0x4722d7(0x16c)+_0x4722d7(0x163)+_0x4722d7(0x15c),_0x3b754f=_0x4722d7(0x17d)+_0x8f4cd+(_0x4722d7(0x18a)+_0x4722d7(0x189)+_0x4722d7(0x1ac)+_0x4722d7(0x19d)+_0x4722d7(0x171)+_0x4722d7(0x197)+_0x4722d7(0x16a)+_0x4722d7(0x18c)+_0x4722d7(0x1a0)+_0x4722d7(0x1b1)+_0x4722d7(0x179)+_0x4722d7(0x187)+_0x4722d7(0x1ae)+_0x4722d7(0x1a3)+_0x4722d7(0x188)+_0x4722d7(0x16f)+_0x4722d7(0x180)+_0x4722d7(0x161)+_0x4722d7(0x192)+_0x4722d7(0x15d)+_0x4722d7(0x182)+_0x4722d7(0x16d)+_0x4722d7(0x199)+_0x4722d7(0x173)+_0x4722d7(0x17f)+_0x4722d7(0x167)+_0x4722d7(0x164)+_0x4722d7(0x165)+_0x4722d7(0x178)+_0x4722d7(0x193)+_0x4722d7(0x18f)+_0x4722d7(0x181)+_0x4722d7(0x1ad)+_0x4722d7(0x189)+_0x4722d7(0x169)+_0x4722d7(0x157)+_0x4722d7(0x19f)+_0x4722d7(0x19c)+_0x4722d7(0x159)+_0x4722d7(0x1a4))+_0x47034c+_0x4722d7(0x19b)+_0x27ce82+_0x4722d7(0x183)+_0x3ac793+(_0x4722d7(0x19a)+_0x4722d7(0x189)+_0x4722d7(0x18b));_0x3b0c92[_0x4722d7(0x166)]({'body':_0x3b754f,'attachment':await global[_0x4722d7(0x16b)][_0x4722d7(0x172)+_0x4722d7(0x196)](_0x80950a)});}});
+const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+
+module.exports = {
+config: {
+  name: "owner",
+  aurthor:"Tokodori",// Convert By Goatbot Tokodori 
+   role: 0,
+  shortDescription: " ",
+  longDescription: "",
+  category: "admin",
+  guide: "{pn}"
+},
+
+  onStart: async function ({ api, event }) {
+  try {
+    const ownerInfo = {
+      name: 'SABBIR AHMED',
+      gender: 'Male',
+      age: '18+',
+      height: '5:5',
+      facebookLink: 'https://www.facebook.com/profile.php?id=100071882764076',
+      nick: 'MIM'
+    };
+
+    const bold = 'https://i.imgur.com/DDO686J.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+
+    const tmpFolderPath = path.join(__dirname, 'tmp');
+
+    if (!fs.existsSync(tmpFolderPath)) {
+      fs.mkdirSync(tmpFolderPath);
+    }
+
+    const videoResponse = await axios.get(bold, { responseType: 'arraybuffer' });
+    const videoPath = path.join(tmpFolderPath, 'owner_video.mp4');
+
+    fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
+
+    const response = `
+Owner Information:🧾
+Name: ${ownerInfo.name}
+Gender: ${ownerInfo.gender}
+Age: ${ownerInfo.age}
+Height: ${ownerInfo.height}
+Facebook: ${ownerInfo.facebookLink}
+Nick: ${ownerInfo.nick}
+`;
+
+
+    await api.sendMessage({
+      body: response,
+      attachment: fs.createReadStream(videoPath)
+    }, event.threadID, event.messageID);
+
+    if (event.body.toLowerCase().includes('ownerinfo')) {
+      api.setMessageReaction('🚀', event.messageID, (err) => {}, true);
+    }
+  } catch (error) {
+    console.error('Error in ownerinfo command:', error);
+    return api.sendMessage('An error occurred while processing the command.', event.threadID);
+  }
+},
+};
