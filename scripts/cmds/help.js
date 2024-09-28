@@ -1,73 +1,116 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs-extra");
+const request = require("request");
 const { getPrefix } = global.utils;
+const { commands, aliases } = global.GoatBot;
 
 module.exports = {
   config: {
     name: "help",
-    version: "1.0",
-    author: "★𝐌𝟗𝐇𝟒𝐌𝐌𝟒𝐃-𝐁𝟒𝐃𝟗𝐋★",
+    version: "1.6.9",
     role: 0,
-    category: "help",
-			shortDescription: "see the available commands",
+    author: "♡ 𝐍𝐚𝐳𝐫𝐮𝐥 ♡",
+    category: "system",
+    countDowns: 3,
+    Description: "show cmds list",
     guide: {
-      en: "{pn} [empty | <page number>]"
+      en: "{pn}",
     }
   },
 
-  onStart: async function ({ api, message, args, event, threadsData, getLang }) {
-    const langCode = await threadsData.get(event.threadID, "data.lang") || global.GoatBot.config.language;
-    const { threadID } = event;
-    const threadData = await threadsData.get(threadID);
+  onStart: async function ({ api, event, args, getText, threadsData, role }) {
+    const { threadID, messageID } = event;
     const prefix = getPrefix(threadID);
 
-    const page = parseInt(args[0]) || 1;
-    const commandsPerPage = 10; // Adjust as needed
-
-    const commands = await getCommandsFromDir(path.join(__dirname, '..', 'cmds'));
-    const commandNames = Object.keys(commands);
-    const totalPages = Math.ceil(commandNames.length / commandsPerPage);
-
-    if (page < 1 || page > totalPages) {
-      return message.reply(getLang("pageNotFound", page));
+    if (!commands || commands.size === 0) {
+      return api.sendMessage("Command list is not available at the moment.", threadID, messageID);
     }
 
-    let B4D9LM1M = `━━━━━━━━━━━━━━━━━━━━━━\n╔╝❮❮𝐌𝐈𝐌-𝐁𝐎𝐓-𝟎𝟎𝟕❯❯╚╗\n\n ╔═════•| 💛 |•═════╗\n★𝐌𝐈𝐌-𝐁𝐎𝐓-𝐂𝐌𝐃-𝐋𝐈𝐒𝐓★\n ╚═════•| 💛 |•═════╝\n━━━━━━━━━━━━━━━━━━━━━━\n\n`;
-    let currentCategory = "";
-    let commandIndex = (page - 1) * commandsPerPage;
-    let commandNumber = (page - 1) * commandsPerPage + 1;
+    if (args.length === 0 || !isNaN(args[0])) {
+      // Show help command usage with pagination
+      let msg = "💫  Ｈｅｌｐ ♡ Ｌｉｓｔ 💫\n\n";
 
-    for (let i = 0; i < commandsPerPage && commandIndex < commandNames.length; i++) {
-      const commandName = commandNames[commandIndex];
-      const command = commands[commandName];
-
-      if (command.config.category !== currentCategory) {
-        currentCategory = command.config.category;
-        B4D9LM1M += `━❮●❯━━━━━❪❤️💙💚❫━━━━━❮●❯━\n\n`;
+      const allCommands = [];
+      for (const [name, value] of commands) {
+        if (value.config.role > 1 && role < value.config.role) continue;
+        allCommands.push(`✰︵${name} ︵✰`);
       }
 
-      B4D9LM1M += `【•${commandNumber}${commandNumber < 10 ? " " : ""} ★𝐂𝐌𝐃-𝐍𝐀𝐌𝐄★【•${command.config.name}•】\n\n`;
-      commandIndex++;
-      commandNumber++;
-    }
-   
-    B4D9LM1M += `\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n╭━─━──━─━≪✠≫━──━─━─━╮\n│\n│🔐𝐓𝐎𝐓𝐀𝐋- 【•${global.GoatBot.commands.size}•】 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒🔐\n│\n│🔐𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑: 𝐌𝐎𝐇𝐀𝐌𝐌𝐀𝐃-𝐁𝐀𝐃𝐎𝐋📌\n│\n│https://m.me/MBC.K1NG.007\n│\n│m.me/100001381266797\n│\n╰━─━──━─━━──━─━─━❯❯\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
+      // Pagination
+      const startPage = parseInt(args[0]) || 1;
+      const numberOfOnePage = 20;
+      const totalCommands = allCommands.length;
+      const totalPages = Math.ceil(totalCommands / numberOfOnePage);
 
-    message.reply({body:B4D9LM1M,attachment: await global.utils.getStreamFromURL("https://drive.google.com/uc?id=1OeLOXs_NtncRmv7_9rI8NQTW1P8_Pkyc")})
-  }
+      const page = Math.max(Math.min(startPage, totalPages), 1);
+      const startIndex = (page - 1) * numberOfOnePage;
+      const endIndex = Math.min(startIndex + numberOfOnePage, totalCommands);
+
+      if (page > totalPages || page < 1) {
+        return api.sendMessage(`Page ${page} does not exist. Total pages: ${totalPages}`, threadID, messageID);
+      }
+
+      msg += allCommands.slice(startIndex, endIndex).join("\n\n") + `\n\nPage ${page}/${totalPages}`;
+      msg += `\n⊰᯽⊱┈──╌❊⛱️❊╌──┈⊰᯽⊱\n     \n🔰𝙏𝙤𝙩𝙖𝙡𝙡 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙊𝙛 𝙩𝙝𝙞𝙨 𝘽𝙤𝙩: 【 ${commands.size} 】\n\n「 𝐎𝐰𝐧𝐞𝐫 : ♡ SABBIR AHMED ♡\n\n🌸𝘽𝙤𝙩 𝙉𝙖𝙢𝙚 : 「 ${global.GoatBot.config.nickNameBot} 」\n⛱️ 𝘽𝙤𝙩 𝙋𝙧𝙚𝙛𝙞𝙭 : 「 ${prefix} 」\n 🌏𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 𝙇𝙞𝙣𝙠  : https://www.facebook.com/profile.php?id=100071882764076`;
+      msg += ``;
+
+      const imageUrl = "https://i.imgur.com/Jau8vs1.jpeg"; // Replace with your Imgur link
+      const imagePath = __dirname + `/cache/commands.jpg`;
+
+      request(imageUrl).pipe(fs.createWriteStream(imagePath)).on("close", () => {
+        api.sendMessage({
+          body: msg,
+          attachment: fs.createReadStream(imagePath)
+        }, threadID, (err, info) => {
+          fs.unlinkSync(imagePath);
+          if (err) console.error(err);
+        });
+      });
+
+      return;
+    }
+
+    // Show command information
+    const commandName = args[0]?.toLowerCase();
+    const command = commands.get(commandName) || commands.get(aliases.get(commandName));
+
+    if (!command) {
+      return api.sendMessage(`Command "${commandName}" not found.`, threadID, messageID);
+    }
+
+    const configCommand = command.config;
+    const roleText = roleTextToString(configCommand.role);
+    const author = configCommand.author || "Unknown";
+    const longDescription = configCommand.longDescription?.en || "No description";
+    const guideBody = configCommand.guide?.en || "No guide available.";
+    const usage = guideBody.replace(/{p}/g, prefix).replace(/{n}/g, configCommand.name);
+
+    const response = `╭── Command Information  ──┈⊰᯽⊱
+│ Name: ${configCommand.name}
+│ Description: ${longDescription}
+│ Aliases: ${configCommand.aliases ? configCommand.aliases.join(", ") : "None"}
+│ Version: ${configCommand.version || "1.0"}
+│ Permission: ${roleText}
+│ Time Per Usage: ${configCommand.countDown || 1}s
+│ Author: ${author}
+├── Usage
+│ ${usage}
+├── Notes
+│ Owner: SABBIR AHMED 
+╰───────────────────────────`;
+
+    api.sendMessage(response, threadID, messageID);
+  },
 };
 
-async function getCommandsFromDir(dir) {
-  const commands = {};
-  const files = await fs.promises.readdir(dir);
-
-  for (const file of files) {
-    if (file.endsWith('.js') && file !== 'help.js') {
-      const filePath = path.join(dir, file);
-      const command = require(filePath);
-      commands[command.config.name] = command;
-    }
+function roleTextToString(role) {
+  switch (role) {
+    case 0:
+      return "0 (All Users)";
+    case 1:
+      return "1 (Group Admins)";
+    case 2:
+      return "2 (Bot Admins)";
+    default:
+      return "Unknown Permission";
   }
-
-  return commands;
 }
