@@ -1,37 +1,50 @@
-const axios = require('axios');
-const baseApiUrl = async () => {
-  const base = await axios.get(`https://raw.githubusercontent.com/Blankid018/D1PT0/main/baseApiUrl.json`);
-  return base.data.api;
-}; 
+ const axios = require("axios");
+const fs = require("fs-extra");
+const path = require("path");
+const KievRPSSecAuth = "1g4_ZNInY79FUn4-DBMKTTxdOfMw_GRjDoXhR4x8S3rjqhwQaEbqT58ScgB-C0shcqVNceOecAG9UhhiIAG98sFXA86j1AV66NP00WVvViAojxFX084n2oupvzC1fieit9uoXkMTGNgSw3gClhfOSL1WDxP0p1Nx72mgYvJnAcRZVt_B3e1J6L3fSrJ0vppAySlTJy7gsth2k1qP7dhZVxQ";
+const _U = "1g4_ZNInY79FUn4-DBMKTTxdOfMw_GRjDoXhR4x8S3rjqhwQaEbqT58ScgB-C0shcqVNceOecAG9UhhiIAG98sFXA86j1AV66NP00WVvViAojxFX084n2oupvzC1fieit9uoXkMTGNgSw3gClhfOSL1WDxP0p1Nx72mgYvJnAcRZVt_B3e1J6L3fSrJ0vppAySlTJy7gsth2k1qP7dhZVxQ";
+
 module.exports = {
   config: {
     name: "dalle",
-    aliases: ["bing", "create", "imagine"],
-    version: "1.0",
-    author: "Dipto",
-    countDown: 15,
+    version: "1.0.2",
+    author: "Samir Å’ ",
     role: 0,
-    description: "Generate images by Unofficial Dalle3",
-    category: "download",
-    guide: { en: "{pn} prompt" }
-  }, 
-  onStart: async({ api, event, args }) => {
-    const prompt = (event.messageReply?.body.split("dalle")[1] || args.join(" ")).trim();
-    if (!prompt) return api.sendMessage("❌| Wrong Format. ✅ | Use: 17/18 years old boy/girl watching football match on TV with 'Dipto' and '69' written on the back of their dress, 4k", event.threadID, event.messageID);
+    countDown: 100,
+    shortDescription: { en: "dalle3 image generator" },
+    longDescription: { en: "dalle3 is a image generator powdered by OpenAi" },
+    category: "ð—”ð—œ-ð—šð—˜ð—¡ð—˜ð—¥ð—”ð—§ð—˜ð——",
+    guide: { en: "{prefix}dalle <search query>" }
+  },
+
+  onStart: async function ({ api, event, args }) {
+    const prompt = args.join(" ");
+
     try {
-       //const cookies = "cookies here (_U value)";
-const cookies = ["1WMSMa5rJ9Jikxsu_KvCxWmb0m4AwilqsJhlkC1whxRDp2StLDR-oJBnLWpoppENES3sBh9_OeFE6BT-Kzzk_46_g_z_NPr7Du63M92maZmXZYR91ymjlxE6askzY9hMCdtX-9LK09sUsoqokbOwi3ldOlm0blR_0VLM3OjdHWcczWjvJ78LSUT7MWrdfdplScZbtHfNyOFlDIGkOKHI7Bg"];
-const randomCookie = cookies[Math.floor(Math.random() * cookies.length)];
-      const wait = api.sendMessage("Wait koro baby 😽", event.threadID);
-      const response = await axios.get(`${await baseApiUrl()}/dalle?prompt=${prompt}&key=dipto008&cookies=${randomCookie}`);
-const imageUrls = response.data.imgUrls || [];
-      if (!imageUrls.length) return api.sendMessage("Empty response or no images generated.", event.threadID, event.messageID);
-      const images = await Promise.all(imageUrls.map(url => axios.get(url, { responseType: 'stream' }).then(res => res.data)));
-    api.unsendMessage(wait.messageID);
-   api.sendMessage({ body: `✅ | Here's Your Generated Photo 😘`, attachment: images }, event.threadID, event.messageID);
+      const res = await axios.get(`https://apis-dalle-gen.onrender.com/dalle3?auth_cookie_U=${_U}&auth_cookie_KievRPSSecAuth=${KievRPSSecAuth}&prompt=${encodeURIComponent(prompt)}`);
+      const data = res.data.results.images;
+
+      if (!data || data.length === 0) {
+        api.sendMessage("response received but imgurl are missing ", event.threadID, event.messageID);
+        return;
+      }
+
+      const imgData = [];
+
+      for (let i = 0; i < Math.min(4, data.length); i++) {
+        const imgResponse = await axios.get(data[i].url, { responseType: 'arraybuffer' });
+        const imgPath = path.join(__dirname, 'cache', `${i + 1}.jpg`);
+        await fs.outputFile(imgPath, imgResponse.data);
+        imgData.push(fs.createReadStream(imgPath));
+      }
+
+      await api.sendMessage({
+        attachment: imgData,
+        body: `Here's your generated image`
+      }, event.threadID, event.messageID);
+
     } catch (error) {
-      console.error(error);
-      api.sendMessage(`Generation failed!\nError: ${error.message}`, event.threadID, event.messageID);
+      api.sendMessage("Can't Full Fill this request ", event.threadID, event.messageID);
     }
   }
-}
+};
