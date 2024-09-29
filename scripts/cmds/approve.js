@@ -47,7 +47,7 @@ onReply: async function({ api, event, Reply, getLang, commandName, prefix }) {
         const index = body.split(/\s+/);
         for (const singleIndex of index) {
             if (isNaN(singleIndex) || singleIndex <= 0 || singleIndex > Reply.pending.length) return api.sendMessage(getLang("invaildNumber", singleIndex), threadID, messageID);
-            api.sendMessage(`▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤🫶আপনাদের গ্রুপে Approve Done 🫶❤\n\n💚🫶যে কোনো হেল্প এর জন্য বট এডমিন এর সাতে যোগাযোগ করুন🫶💚\n▬▬▬▬▬▬▬▬▬▬▬▬\nhttps://m.me/MBC.K1NG.007\n\nm.me/100001381266797\n▬▬▬▬▬▬▬▬▬▬▬▬\n╔╝❮❮𝐌𝐎𝐇𝐀𝐌𝐌𝐀𝐃 𝐁𝐀𝐃𝐎𝐋❯❯╚╗\n▬▬▬▬▬▬▬▬▬▬▬▬`, Reply.pending[singleIndex - 1].threadID);
+            api.sendMessage(`▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤🫶আপনাদের গ্রুপে Approve Done 🫶❤\n\n💚🫶যে কোনো হেল্প এর জন্য বট এডমিন এর সাতে যোগাযোগ করুন🫶💚\n▬▬▬▬▬▬▬▬▬▬▬▬https://www.facebook.com/profile.php?id=100071882764076▬▬▬▬▬▬▬▬▬▬▬\n╔╝❮❮SABBIR AHMED ❯❯╚╗\n▬▬▬▬▬▬▬▬▬▬▬▬`, Reply.pending[singleIndex - 1].threadID);
             count+=1;
         }
         return api.sendMessage(getLang("approveSuccess", count), threadID, messageID);
